@@ -14,5 +14,5 @@ rosdep install -i -r -y --from-paths src --ignore-src
 catkin_make
 source devel/setup.bash
 
-atkin_make run_tests
+catkin_make run_tests
 catkin_test_results
