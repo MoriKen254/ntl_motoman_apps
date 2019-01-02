@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>motoman_moveit_apps</name>
+  <version>0.1.0</version>
+  <description>The motoman_moveit_apps package</description>
+
+  <maintainer email="p595201m@mail.kyutech.jp">MoriKen254</maintainer>
+  <license>BSD</license>
+  
+  <url type="repository">http://github.com/ntl-ros-pkg/ntl_motoman_apps</url>
+
+  <author email="p595201m@mail.kyutech.jp">MoriKen254</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>roslaunch</exec_depend>
+  <exec_depend>timed_roslaunch</exec_depend>
+
+</package>

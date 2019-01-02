@@ -1,0 +1,10 @@
+<launch>
+  <include file="$(find motoman_gazebo)/launch/sia5/sia5_with_dhand.launch"/>
+
+  <include file="$(find timed_roslaunch)/launch/timed_roslaunch.launch">
+    <arg name="time" value="5" />
+    <arg name="pkg" value="motoman_moveit_bringup" />
+    <arg name="file" value="sia5_with_dhand_moveit_planning_execution.launch" />
+    <!--arg name="node_name" value="sia5_with_dhand_moveit_planning_execution" /-->
+  </include>
+</launch>
