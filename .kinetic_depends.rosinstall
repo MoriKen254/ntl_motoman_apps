@@ -1,0 +1,20 @@
+- git:
+    local-name: ntl_motoman_pkgs/motoman_moveit
+    uri: https://github.com/ntl-ros-pkg/motoman_moveit.git
+    version: master
+- git:
+    local-name: ntl_motoman_pkgs/motoman_robot
+    uri: https://github.com/ntl-ros-pkg/motoman_robot.git
+    version: master
+- git:
+    local-name: ntl_motoman_pkgs/motoman_simulator
+    uri: https://github.com/ntl-ros-pkg/motoman_simulator.git
+    version: master
+- git:
+    local-name: ntl_motoman_deps/ntl_recognition
+    uri: https://github.com/ntl-ros-pkg/ntl_recognition.git
+    version: master
+- git:
+    local-name: ntl_motoman_deps/dhand_ros_pkg
+    uri: https://github.com/Nishida-Lab/dhand_ros_pkg
+    version: master
